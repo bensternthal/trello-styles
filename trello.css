@@ -1,0 +1,31 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("trello.com") {
+
+  
+  .list-card-labels .card-label {
+    float: left;
+    height: 20px;
+    margin: 0px 3px 3px 0px;
+    padding: 0 5px 0 5px;
+    font-size:10px;
+    line-height: 20px;
+    width: auto;
+  }
+  
+  
+  .card-label {
+    margin-right: 3px;
+    padding: 20px;
+    border-radius: 3px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4), 0px 0px 2px #000;
+    text-overflow: unset;
+    position: relative;
+    overflow: unset;
+    display: block;
+    color: #FFF;
+  }  
+  
+}
