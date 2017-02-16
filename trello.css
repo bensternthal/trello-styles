@@ -27,5 +27,9 @@
     display: block;
     color: #FFF;
   }  
+ 
+  body.body-board-view {
+    background-color: rgb(24,44,36) !important;
+  }
   
 }
